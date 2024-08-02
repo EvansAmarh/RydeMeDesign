@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Final",
+    "slug": "Final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ryde.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/lol.jpg",
+      "resizeMode": "c",
+      "backgroundColor": "#273b4a"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ryde.png",
+        "backgroundColor": "#CCFF00",
+        "permissions": [
+          "ACCESS_FINE_LOCATION",
+          "ACCESS_COARSE_LOCATION"
+        ]
+      },
+      "package": "com.facedem.Final"
+    },
+    "web": {
+      "favicon": "./assets/rename-removebg-preview.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d263f159-a186-43a5-9e8a-097993ae2387"
+      }
+    }
+  }
+}
